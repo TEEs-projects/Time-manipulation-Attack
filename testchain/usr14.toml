@@ -1,0 +1,21 @@
+[parity] 
+chain = "21chain.json" 
+base_path = "usr14"
+
+[network] 
+port = 30334
+id = 2025
+reserved_only = false
+reserved_peers = "myPrivateNetwork.txt"
+
+[rpc]
+port = 8684
+apis =["all"]
+
+[websockets]
+disable = false 
+port = 8784
+
+[account]
+password = ["usr14/password.txt"]
+unlock = ["0x0070ac59613e2f544bf7dad12838b0227e419b96"]

@@ -1,0 +1,22 @@
+[parity] 
+chain = "21chain.json" 
+base_path = "usr9"
+
+[network] 
+port = 30329
+id = 2025
+reserved_only = false
+reserved_peers = "myPrivateNetwork.txt"
+max_peers = 30
+
+[rpc]
+port = 8679
+apis =["all"]
+
+[websockets]
+disable = false 
+port = 8779
+
+[account]
+password = ["usr9/password.txt"]
+unlock = ["0x002bbd28290355640f455e7535313d17a8c4f98f"]

@@ -1,0 +1,28 @@
+[parity] 
+chain = "21chain.json" 
+base_path = "node12"
+
+[network] 
+port = 30312
+id = 2025
+reserved_only = false
+reserved_peers = "myPrivateNetwork.txt"
+
+[rpc]
+port = 8662
+apis =["all"]
+
+[websockets]
+disable = false 
+port = 8762
+
+[account]
+password = ["node12/password.txt"]
+unlock = ["0x00c3ca2fd819f4d2ea30c9fd99bf80c7c86f1f25"]
+
+[mining]
+reseal_on_txs = "none"
+force_sealing = true
+author = "0x00c3ca2fd819f4d2ea30c9fd99bf80c7c86f1f25"
+engine_signer = "0x00c3ca2fd819f4d2ea30c9fd99bf80c7c86f1f25"
+

@@ -1,0 +1,22 @@
+[parity] 
+chain = "21chain.json" 
+base_path = "usr8"
+
+[network] 
+port = 30328
+id = 2025
+reserved_only = false
+reserved_peers = "myPrivateNetwork.txt"
+max_peers = 30
+
+[rpc]
+port = 8678
+apis =["all"]
+
+[websockets]
+disable = false 
+port = 8778
+
+[account]
+password = ["usr8/password.txt"]
+unlock = ["0x00f0d1c4e8c7ac0f60768dd768411cce48bd4100"]

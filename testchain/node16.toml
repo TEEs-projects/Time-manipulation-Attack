@@ -1,0 +1,28 @@
+[parity] 
+chain = "21chain.json" 
+base_path = "node16"
+
+[network] 
+port = 30316
+id = 2025
+reserved_only = false
+reserved_peers = "myPrivateNetwork.txt"
+
+[rpc]
+port = 8666
+apis =["all"]
+
+[websockets]
+disable = false 
+port = 8766
+
+[account]
+password = ["node16/password.txt"]
+unlock = ["0x00da2f656d0ae044234479e93d2006798046d6cd"]
+
+[mining]
+reseal_on_txs = "none"
+force_sealing = true
+author = "0x00da2f656d0ae044234479e93d2006798046d6cd"
+engine_signer = "0x00da2f656d0ae044234479e93d2006798046d6cd"
+
