@@ -4,7 +4,7 @@ This is a Rust-based experimental implementation of paper "Time-manipulation Att
 
 ## **Getting Started**
 
-The codes are developed in Rust and Python (for analysis tools) using a server with Ubuntu 20.04.4 LTS (GNU/Linux 5.4.0-109-generic x86\_64) operating system.
+The codes are developed in Rust and Python (for data processing tools) using a server with Ubuntu 20.04.4 LTS (GNU/Linux 5.4.0-109-generic x86\_64) operating system.
 
 ### **Prerequisites**
 
@@ -27,7 +27,7 @@ cargo build
 ```
 21 sealer nodes and 5 user nodes should start running on local machine, which is editable in file *./nohuprun.sh* along with attacking methods of malicious $node_0$.
 
-* To enable the Python analysis tool for current blockchain state, run:
+* To enable the Python auxiliary tool for current blockchain state, run:
 ```
 ./start.sh
 ```
@@ -37,6 +37,8 @@ Follow the instruction and type in the span of blocks to be analyzed, and result
 2. qry_result.txt
 3. result_readable.txt
 4. results_indexes.txt
+
+* **Python auxiliary tools for data processing** can be found in directory *./testchain/shellgen*
 
 ## **Historical data**
 
