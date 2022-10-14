@@ -1,6 +1,6 @@
 # Timestamp-attack-of-Aura
 
-This is a Rust-based experimental implementation of paper "Time-manipulation Attack: Breaking Fairness against Proof of Authority Aura". 
+This is a Rust-based experimental implementation of paper *Time-manipulation Attack: Breaking Fairness against Proof of Authority Aura*. 
 
 ## **Getting Started**
 
@@ -14,14 +14,14 @@ The codes are developed in Rust and Python (for data processing tools) using a s
 ### **Build**
 
 
-To build the project, enter each *openethereum-3.3.4* directory and run:
+To build the project, enter each *openethereum* directory and run:
 
 ```
 cargo build
 ```
 
 ## **Running the tests**
-* To run the test, enter *testchain* directory and run:
+* To run the test, enter *./testchain* directory and run:
 
 ```
 ./nohuprun.sh

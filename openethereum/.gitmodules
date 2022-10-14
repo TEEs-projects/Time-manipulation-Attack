@@ -1,0 +1,3 @@
+[submodule "crates/ethcore/res/json_tests"]
+	path = crates/ethcore/res/json_tests
+	url = https://github.com/ethereum/tests.git
