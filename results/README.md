@@ -10,5 +10,5 @@ Data are classified by three attacking methods:
 
 Each above directory contains running logs of all $21$ sealer nodes under directories **/logs* and processed data by our Python auxiliary tools, including *result_indexes.txt and result_readable.txt*.
 
-Folder *txs* keeps data in experiments where transactions are involed, and is catagorized as the same way above.
+Folder **txs** keeps data in experiments where transactions are involed, and is catagorized as the same way above.
 
