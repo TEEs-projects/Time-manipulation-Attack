@@ -31,12 +31,16 @@ cargo build
 ```
 ./start.sh
 ```
-Follow the instruction and type in the span of blocks to be analyzed, and the results can be outputted as
+Follow the instruction and type in the span of blocks to be analyzed, and results will be outputted as
 
 1. logs/.
 2. qry_result.txt
 3. result_readable.txt
 4. results_indexes.txt
+
+## **Historical data**
+
+Historical data of our runs are in *results* folder.
 
 ## Acknowledgments
 Attacking source code is developed based on:
