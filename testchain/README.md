@@ -2,7 +2,7 @@
 This folder holds the chain and node configuration files for running our experiment.
 
 ### **Catalog**
-Three types of files are kept in this folder:
+Following types of files are kept in this folder:
 
 * **Network configuration**: *21chain.json, myPrivateNetwork.txt*
 * **Sealer/User node configuration**: *.toml, node\*/\* and usr\*/\**
