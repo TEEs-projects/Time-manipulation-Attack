@@ -1,6 +1,6 @@
 # coding=utf-8
-file_in_tx = open('/data/xr/testchain/tx_result.txt','r')
-file_out = open('/data/xr/testchain/tx_read.txt','w')
+file_in_tx = open('./tx_result.txt','r')
+file_out = open('./tx_read.txt','w')
 
 tx_content = file_in_tx.read()
 tx_list = tx_content.split('\n')

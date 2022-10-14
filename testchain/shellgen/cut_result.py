@@ -1,9 +1,9 @@
 # coding=utf-8
 import time
 
-file_in = open('/data/xr/testchain/qry_result.txt','r')
-file_out = open('/data/xr/testchain/result_readable.txt','w')
-file_out1 = open('/data/xr/testchain/result_indexes.txt','w')
+file_in = open('./qry_result.txt','r')
+file_out = open('./result_readable.txt','w')
+file_out1 = open('./result_indexes.txt','w')
 indexes =[]
 sealers = ["0x00bd138abd70e2f00903268f3db08f2d25677c9e",
             "0x00aa39d30f0d20ff03a22ccfc30b7efbfca597c2",

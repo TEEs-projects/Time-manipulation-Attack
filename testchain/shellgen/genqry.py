@@ -1,7 +1,7 @@
 # coding=utf-8
-file = open('/data/xr/testchain/qry.sh','w')
-filetx = open('/data/xr/testchain/txqry.sh','w')
-filetx_out1=open('/data/xr/testchain/tx_result.txt','w')
+file = open('./qry.sh','w')
+filetx = open('./txqry.sh','w')
+filetx_out1=open('./tx_result.txt','w')
 p1='curl --data \'{"method":"eth_getBlockByNumber","params":["'
 p2='",true],"id":1,"jsonrpc":"2.0"}\' -H "Content-Type: application/json" -X POST localhost:8651 >> qry_result.txt \n\n'
 p3='"/\/n/\/n/\/n" >> qry_result.txt \n'
