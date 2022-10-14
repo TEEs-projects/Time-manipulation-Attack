@@ -1,2 +1,0 @@
-nohup start+15:33:24
-nohup end+15:40:18

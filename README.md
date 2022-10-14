@@ -9,6 +9,7 @@ The codes are developed in Rust and Python (for data processing tools) using a s
 ### **Prerequisites**
 
 * [Rust (version)](https://www.rust-lang.org/)
+* Websocket 8650-8675 and 8750-8775 are avaliable (considering the scenarios of running 21 sealer nodes and 5 user nodes).
 
 ### **Build**
 
@@ -38,7 +39,23 @@ Follow the instruction and type in the span of blocks to be analyzed, and result
 3. result_readable.txt
 4. results_indexes.txt
 
-* **Python auxiliary tools for data processing** can be found in directory *./testchain/shellgen*
+(**Python auxiliary tools for data processing** can be found in directory *./testchain/shellgen*)
+
+* To stop the running, run:
+```
+./stop.sh
+```
+
+* After the stop, to clean up the current chain data and operation results, run:
+```
+./clean.sh
+```
+
+* To send transactions to the system, make sure usr1 to usr5 are running and run:
+```
+./send.sh
+```
+
 
 ## **Historical data**
 

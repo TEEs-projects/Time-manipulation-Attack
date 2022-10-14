@@ -1,1 +1,1 @@
-pkill -f /data/xr
+pkill -f ../openethereum
