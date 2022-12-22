@@ -9,7 +9,7 @@ In fact, several blockchain papers have been published with WWW in recent years.
 1. [Lei Wu, et al. Towards Understanding and Demystifying Bitcoin Mixing Services. WWW 21.](https://dl.acm.org/doi/10.1145/3442381.3449880)  
 2. [Christian Aebeloe, et al. ColChain: Collaborative Linked Data Networks. WWW 21.](https://dl.acm.org/doi/10.1145/3442381.3450037) 
 3. [Yuan, Liang, et al. Coopedge: A decentralized blockchain-based platform for cooperative edge computing. WWW 21.](https://dl.acm.org/doi/10.1145/3442381.3449994)
-4. [Manoharan Ramachandran, et al. Towards Complete Decentralised Verification of Data with Privacy: Different ways to connect Solid Pods and Blockchain. WWW 20.] (https://dl.acm.org/doi/10.1145/3366424.3385759)
+4. [Manoharan Ramachandran, et al. Towards Complete Decentralised Verification of Data with Privacy: Different ways to connect Solid Pods and Blockchain. WWW 20.](https://dl.acm.org/doi/10.1145/3366424.3385759)
 
 We also find that WWW (esp. the security, privacy & trust track) favours the papers that discover risks and attacks & defence of known technologies (e.g., data analytics and ML). For instance, 
 
