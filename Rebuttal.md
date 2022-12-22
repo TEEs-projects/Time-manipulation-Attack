@@ -6,15 +6,15 @@ In terms of scope, we do feel that our paper is closely related to the security 
 
 In fact, several blockchain papers have been published with WWW in recent years. Below we list a few of them. 
 
-1. Lei Wu, et al. Towards Understanding and Demystifying Bitcoin Mixing Services. WWW 21.  
-2. Christian Aebeloe, et al. ColChain: Collaborative Linked Data Networks. WWW 21. 
-3. Yuan, Liang, et al. Coopedge: A decentralized blockchain-based platform for cooperative edge computing. WWW 21.
-4. Manoharan Ramachandran, et al. Towards Complete Decentralised Verification of Data with Privacy: Different ways to connect Solid Pods and Blockchain. WWW 20. 
+1. [Lei Wu, et al. Towards Understanding and Demystifying Bitcoin Mixing Services. WWW 21.](https://dl.acm.org/doi/10.1145/3442381.3449880)  
+2. [Christian Aebeloe, et al. ColChain: Collaborative Linked Data Networks. WWW 21.](https://dl.acm.org/doi/10.1145/3442381.3450037) 
+3. [Yuan, Liang, et al. Coopedge: A decentralized blockchain-based platform for cooperative edge computing. WWW 21.](https://dl.acm.org/doi/10.1145/3442381.3449994)
+4. [Manoharan Ramachandran, et al. Towards Complete Decentralised Verification of Data with Privacy: Different ways to connect Solid Pods and Blockchain. WWW 20.] (https://dl.acm.org/doi/10.1145/3366424.3385759)
 
 We also find that WWW (esp. the security, privacy & trust track) favours the papers that discover risks and attacks & defence of known technologies (e.g., data analytics and ML). For instance, 
 
-1. Fang, Minghong, et al. Data poisoning attacks and defences to crowdsourcing systems. WWW  21.
-2. Xu, Chang, et al. A Targeted Attack on Black-Box Neural Machine Translation with Parallel Data Poisoning. WWW 21.
+1. [Fang, Minghong, et al. Data poisoning attacks and defences to crowdsourcing systems. WWW  21.](https://dl.acm.org/doi/10.1145/3442381.3450066)
+2. [Xu, Chang, et al. A Targeted Attack on Black-Box Neural Machine Translation with Parallel Data Poisoning. WWW 21.](https://dl.acm.org/doi/10.1145/3442381.3450034)
 
 Additionally, in our attacks, the mining rights of honest nodes are deprived, and malicious mining nodes may reorder, drop, or censor users’ transactions, causing the browser-based wallets and page-based DApps to fail to receive correct receipts (or get reduced profit). 
 
@@ -25,9 +25,9 @@ Therefore, we do feel that our paper is a good fit to WWW, given that it studies
 
 Unlike conventional commercial software that runs on closed source (or strictly licensed) code, blockchain projects are typically open source, and the developers work in an open community (with CC0 license). It is common in the blockchain-related field to present attacks to existing algorithms/protocols. Attacks are useful for one to discover the potential risks of a system even if the security assumptions are not violated. It is not ‘required’ for papers like this to be published before receiving feedbacks for the disclosure. See some examples below. 
 
-1. Eyal, Ittay, et al. Majority is not enough: Bitcoin mining is vulnerable. Communications of the ACM 2018
-2. Heilman, Ethan, et al. Eclipse attacks on Bitcoin’s peer-to-peer network. USENIX Security 15
-3. Liyi Zhou, et al. High-frequency trading on decentralized on-chain exchanges. IEEE S&P 2021
+1. [Eyal, Ittay, et al. Majority is not enough: Bitcoin mining is vulnerable. Communications of the ACM 2018](https://www.researchgate.net/publication/258224002_Majority_Is_Not_Enough_Bitcoin_Mining_Is_Vulnerable)
+2. [Heilman, Ethan, et al. Eclipse attacks on Bitcoin’s peer-to-peer network. USENIX Security 15](https://dl.acm.org/doi/10.5555/2831143.2831152)
+3. [Liyi Zhou, et al. High-frequency trading on decentralized on-chain exchanges. IEEE S&P 2021](https://arxiv.org/abs/2009.14021)
 
 An example: Sandwich attack in DeFi protocols (see [3] above by Liyi Zhou et al.)  is an attack that poses threats more than billions of USD (as they claimed in paper). However, they merely mentioned the disclosure as “We disclosed our preliminary results to Uniswap on 18th of November 2019, which allowed tightening the trader protections” (P429, Footnote 4). The paper is published before the authors received responses from the team that maintained its targeted protocol, Uniswap. 
 
