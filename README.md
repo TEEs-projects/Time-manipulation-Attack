@@ -4,27 +4,34 @@ This is a Rust-based experimental implementation of paper *Time-manipulation Att
 
 ## Table of Contents
 
-1. [Getting Started](#chapter-001)<br>
-  1.1 [Prerequisites](#chapter-0011)<br>
-  1.2 [Build](#chapter-0012)<br>
-2. [Running the tests](#chapter-002)<br>
-3. [Historical data](#chapter-003)<br>
-4. [Acknowledgments](#chapter-004)<br>
+1. [Description](#chapter-001)<br>
+2. [Getting Started](#chapter-001)<br>
+  2.1 [Prerequisites](#chapter-0011)<br>
+  2.2 [Build](#chapter-0012)<br>
+3. [Running the tests](#chapter-002)<br>
+4. [Historical data](#chapter-003)<br>
+5. [Acknowledgments](#chapter-004)<br>
 
 
+## **1 Description**<a id="chapter-000"></a>
+**Built for research use**: a novel attack series on OpenEthereum, an implementation of Proof-of-Authority Aura.
+
+* Fully reproduce the attacks in research paper.
+* Source code with historic data.
+* Three sperate attcks.
+* Local test avaliable.
 
 
-
-## **1 Getting Started**<a id="chapter-001"></a>
+## **2 Getting Started**<a id="chapter-001"></a>
 
 The codes are developed in Rust and Python (for data processing tools) using a server with Ubuntu 20.04.4 LTS (GNU/Linux 5.4.0-109-generic x86\_64) operating system.
 
-### **1.1 Prerequisites**<a id="chapter-0011"></a>
+### **2.1 Prerequisites**<a id="chapter-0011"></a>
 
 * [Rust (version)](https://www.rust-lang.org/)
 * By default, websocket 8650-8675 and 8750-8775 need to be avaliable (considering the scenarios of running 21 sealer nodes and 5 user nodes).
 
-### **1.2 Build**<a id="chapter-0012"></a>
+### **2.2 Build**<a id="chapter-0012"></a>
 
 
 To build the project, enter each *openethereum* directory and run:
@@ -33,7 +40,7 @@ To build the project, enter each *openethereum* directory and run:
 cargo build
 ```
 
-## **2 Running the tests**<a id="chapter-002"></a>
+## **3 Running the tests**<a id="chapter-002"></a>
 We establish 21 sealer nodes (node0 to node20) and 5 user nodes (usr1 to usr5) for testing. Among them, sealer0 is a malicious sealer running a falsified client (either openethereum-3.3.4_sleep3s, openethereum-3.3.4_25s or openethereum-3.3.4_23s_sleep3s). The specific falsified client can be selected by changing the directory on line 2 of [file](https://github.com/TEEs-projects/Time-manipulation-Attack/blob/main/testchain/nohuprun.sh). [Openethereum](https://github.com/TEEs-projects/Time-manipulation-Attack/tree/main/openethereum) is the original client run by honest sealers/users.
 
 * To run the test, enter *./testchain* directory and run:
@@ -72,11 +79,11 @@ Follow the instruction and type in the span of blocks to be analyzed, and result
 ```
 
 
-## **3 Historical data**<a id="chapter-003"></a>
+## **4 Historical data**<a id="chapter-003"></a>
 
 Historical data of our runs are in [*results*](https://github.com/auraAttack/Time-manipulation-Attack/tree/main/results) folder.
 
-## 4 Acknowledgments<a id="chapter-004"></a>
+## 5 Acknowledgments<a id="chapter-004"></a>
 Attacking source code is developed based on:
 * [Openethereum 3.3.4](https://github.com/openethereum/openethereum/tree/v3.3.4)
 
