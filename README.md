@@ -4,12 +4,12 @@ This is a Rust-based experimental implementation of paper *Time-manipulation Att
 
 ## Table of Contents
 
-1. [Getting Started](#chapter-001)
+1. [Getting Started](#chapter-001)<br>
   1.1 [Prerequisites](#chapter-0011)<br>
   1.2 [Build](#chapter-0012)<br>
-2. [Running the tests](#chapter-002)
-3. [Historical data](#chapter-003)
-4. [Acknowledgments](#chapter-004)
+2. [Running the tests](#chapter-002)<br>
+3. [Historical data](#chapter-003)<br>
+4. [Acknowledgments](#chapter-004)<br>
 
 
 
