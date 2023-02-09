@@ -2,16 +2,29 @@
 
 This is a Rust-based experimental implementation of paper *Time-manipulation Attack: Breaking Fairness against Proof of Authority Aura* (to be presented at the 2023 ACM Web Conference). 
 
-## **Getting Started**
+## Table of Contents
+
+1. [Getting Started](#chapter-001)
+  1.1 [Prerequisites](#chapter-0011)<br>
+  1.2 [Build](#chapter-0012)<br>
+2. [Running the tests](#chapter-002)
+3. [Historical data](#chapter-003)
+4. [Acknowledgments](#chapter-004)
+
+
+
+
+
+## **1 Getting Started**<a id="chapter-001"></a>
 
 The codes are developed in Rust and Python (for data processing tools) using a server with Ubuntu 20.04.4 LTS (GNU/Linux 5.4.0-109-generic x86\_64) operating system.
 
-### **Prerequisites**
+### **1.1 Prerequisites**<a id="chapter-0011"></a>
 
 * [Rust (version)](https://www.rust-lang.org/)
 * By default, websocket 8650-8675 and 8750-8775 need to be avaliable (considering the scenarios of running 21 sealer nodes and 5 user nodes).
 
-### **Build**
+### **1.2 Build**<a id="chapter-0012"></a>
 
 
 To build the project, enter each *openethereum* directory and run:
@@ -20,7 +33,9 @@ To build the project, enter each *openethereum* directory and run:
 cargo build
 ```
 
-## **Running the tests**
+## **2 Running the tests**<a id="chapter-002"></a>
+We establish 21 sealer nodes (node0 to node20) and 5 user nodes (usr1 to usr5) for testing. Among them, sealer0 is a malicious sealer running a falsified client (either openethereum-3.3.4_sleep3s, openethereum-3.3.4_25s or openethereum-3.3.4_23s_sleep3s). The specific falsified client can be selected by changing the directory on line 2 of [file](https://github.com/TEEs-projects/Time-manipulation-Attack/blob/main/testchain/nohuprun.sh). [Openethereum](https://github.com/TEEs-projects/Time-manipulation-Attack/tree/main/openethereum) is the original client run by honest sealers/users.
+
 * To run the test, enter *./testchain* directory and run:
 
 ```
@@ -57,11 +72,11 @@ Follow the instruction and type in the span of blocks to be analyzed, and result
 ```
 
 
-## **Historical data**
+## **3 Historical data**<a id="chapter-003"></a>
 
 Historical data of our runs are in [*results*](https://github.com/auraAttack/Time-manipulation-Attack/tree/main/results) folder.
 
-## Acknowledgments
+## 4 Acknowledgments<a id="chapter-004"></a>
 Attacking source code is developed based on:
 * [Openethereum 3.3.4](https://github.com/openethereum/openethereum/tree/v3.3.4)
 
