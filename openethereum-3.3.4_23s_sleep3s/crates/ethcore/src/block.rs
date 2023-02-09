@@ -212,7 +212,7 @@ impl<'x> OpenBlock<'x> {
             .header
             .set_timestamp(engine.open_block_header_timestamp1(parent.timestamp()));
             //info!("will sleep 3s");
-            //thread::sleep(Duration::from_secs(3));
+            thread::sleep(Duration::from_secs(3));
             // Duration::new(18, 0)
             //info!("just slept 3s");
         } else{
