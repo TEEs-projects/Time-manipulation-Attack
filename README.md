@@ -42,6 +42,7 @@ cargo build
 
 ## **3 Running the tests**<a id="chapter-002"></a>
 <img src=./testchain/pic.png width=60% />
+
 We establish 21 sealer nodes (node0 to node20) and 5 user nodes (usr1 to usr5) for testing. Among them, sealer0 is a malicious sealer running a falsified client (either openethereum-3.3.4_sleep3s, openethereum-3.3.4_25s or openethereum-3.3.4_23s_sleep3s). The specific falsified client can be selected by changing the directory on line 2 of [file](https://github.com/TEEs-projects/Time-manipulation-Attack/blob/main/testchain/nohuprun.sh). [Openethereum](https://github.com/TEEs-projects/Time-manipulation-Attack/tree/main/openethereum) is the original client run by honest sealers/users.
 
 * To run the test, enter *./testchain* directory and run:
