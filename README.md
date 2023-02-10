@@ -50,7 +50,7 @@ We establish 21 sealer nodes (node0 to node20) and 5 user nodes (usr1 to usr5) f
 ```
 ./nohuprun.sh
 ```
-21 sealer nodes and 5 user nodes should start running on local machine, which is editable in file *./nohuprun.sh* along with attacking methods of malicious node0.
+21 sealer nodes and 5 user nodes start running on local machine, which is editable in file *./nohuprun.sh* along with attacking methods of malicious node0.
 
 * To enable the Python auxiliary tool for current blockchain state, run:
 ```
