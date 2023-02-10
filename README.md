@@ -47,7 +47,7 @@ cargo build
 
 We establish 21 sealer nodes (node0 to node20) and 5 user nodes (usr1 to usr5) for testing. Among them, sealer0 is a malicious sealer running a falsified client (either openethereum-3.3.4_sleep3s, openethereum-3.3.4_25s or openethereum-3.3.4_23s_sleep3s). The specific falsified client can be selected by changing the directory on line 2 of [file](https://github.com/TEEs-projects/Time-manipulation-Attack/blob/main/testchain/nohuprun.sh). [Openethereum](https://github.com/TEEs-projects/Time-manipulation-Attack/tree/main/openethereum) is the original client run by honest sealers/users.
 
-### **Step by step**<a id="chapter-0021"></a>
+### **3.1 Step by step**<a id="chapter-0021"></a>
 
 * To run the test, enter *./testchain* directory and run:
 
@@ -83,7 +83,7 @@ Follow the instruction and type in the span of blocks to be analyzed, and result
 ./clean.sh
 ```
 
-### **Analysis tools**<a id="chapter-0022"></a>
+### **3.2 Analysis tools**<a id="chapter-0022"></a>
 
 **Python auxiliary tools for data processing** can be found in directory *./testchain/shellgen*. Tools are built for analytical purposes including data query, cutting, counting, and outputting analysis results to files that are easy to read.
 
