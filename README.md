@@ -28,7 +28,7 @@ The codes are developed in Rust and Python (for data processing tools) using a s
 
 ### **2.1 Prerequisites**<a id="chapter-0011"></a>
 
-* [Rust (version)](https://www.rust-lang.org/)
+* [Rust](https://www.rust-lang.org/)
 * By default, websocket 8650-8675 and 8750-8775 need to be avaliable (considering the scenarios of running 21 sealer nodes and 5 user nodes).
 
 ### **2.2 Build**<a id="chapter-0012"></a>
