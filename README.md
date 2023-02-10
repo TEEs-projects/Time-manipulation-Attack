@@ -9,7 +9,7 @@ This is a Rust-based experimental implementation of paper *Time-manipulation Att
   2.1 [Prerequisites](#chapter-0011)<br>
   2.2 [Build](#chapter-0012)<br>
 3. [Running the tests](#chapter-002)<br>
-4. [Historical data](#chapter-003)<br>
+4. [Experimental results](#chapter-003)<br>
 5. [Acknowledgments](#chapter-004)<br>
 
 
@@ -65,6 +65,11 @@ Follow the instruction and type in the span of blocks to be analyzed, and result
 
 (**Python auxiliary tools for data processing** can be found in directory *./testchain/shellgen*)
 
+* To send transactions to the system, make sure usr1 to usr5 are running and run:
+```
+./send.sh
+```
+
 * To stop the running, run:
 ```
 ./stop.sh
@@ -75,15 +80,15 @@ Follow the instruction and type in the span of blocks to be analyzed, and result
 ./clean.sh
 ```
 
-* To send transactions to the system, make sure usr1 to usr5 are running and run:
-```
-./send.sh
-```
 
 
-## **4 Historical data**<a id="chapter-003"></a>
+## **4 Experimental results**<a id="chapter-003"></a>
 
-Historical data of our runs are in [*results*](https://github.com/auraAttack/Time-manipulation-Attack/tree/main/results) folder.
+Historical data of our runs are in [*results*](https://github.com/auraAttack/Time-manipulation-Attack/tree/main/results) folder, which reflects our experimental results as described in Section 4.2 of our paper.
+
+Once the attack starts, all node1's blocks are lost for all [*Attack-II*](https://github.com/TEEs-projects/Time-manipulation-Attack/blob/main/results/25s/result_indexes.txt), [*Attack-II*](https://github.com/TEEs-projects/Time-manipulation-Attack/blob/main/results/sleep3s/result_indexes.txt) and [*Attack-III*](https://github.com/TEEs-projects/Time-manipulation-Attack/tree/main/results). Details can be found [here](https://github.com/TEEs-projects/Time-manipulation-Attack/tree/main/results).
+
+
 
 ## 5 Acknowledgments<a id="chapter-004"></a>
 Attacking source code is developed based on:
