@@ -25,7 +25,7 @@ This experimental implementation, based on the Rust programming language, explor
 
 ## **2 Getting Started**<a id="chapter-001"></a>
 
-The implementation consists of codes developed in both Rust and Python, where Rust is used for the core implementation and Python is used for data processing tools. The implementation was carried out on a server running Ubuntu 20.04.4 LTS, which employs the GNU/Linux 5.4.0-109-generic x86_64 operating system.
+The implementation consists of code developed in both Rust and Python, where Rust is used for the core implementation and Python is used for data processing tools. The implementation was carried out on a server running Ubuntu 20.04.4 LTS, which employs the GNU/Linux 5.4.0-109-generic x86_64 operating system.
 
 ### **2.1 Prerequisites**<a id="chapter-0011"></a>
 
