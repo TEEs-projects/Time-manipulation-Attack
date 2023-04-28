@@ -1,6 +1,6 @@
 # Timestamp-attack-of-Aura
 
-This is a Rust-based experimental implementation of paper *Time-manipulation Attack: Breaking Fairness against Proof of Authority Aura* (to be presented at the 2023 ACM Web Conference). 
+This experimental implementation, based on the Rust programming language, explores the time-manipulation attack proposed in the paper 'Breaking Fairness against Proof of Authority Aura', which will be presented at the 2023 ACM Web Conference.
 
 ## Table of Contents
 
