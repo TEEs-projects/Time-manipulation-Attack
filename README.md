@@ -20,7 +20,7 @@ This is a Rust-based experimental implementation of paper *Time-manipulation Att
 
 * Fully reproduce the attacks in research paper.
 * Source code with historic data.
-* Three sperate attcks.
+* Three separate attacks.
 * Local test avaliable.
 
 
