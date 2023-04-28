@@ -16,7 +16,6 @@ This experimental implementation, based on the Rust programming language, explor
 
 
 ## **1 Description**<a id="chapter-000"></a>
-**Built for research use**: a novel attack series on OpenEthereum, an implementation of Proof-of-Authority Aura.
 
 **Built for research use**: This tool is designed for research purposes and is capable of conducting a novel series of attacks on OpenEthereum, an implementation of Proof-of-Authority Aura.
 
@@ -26,7 +25,7 @@ This experimental implementation, based on the Rust programming language, explor
 
 ## **2 Getting Started**<a id="chapter-001"></a>
 
-The codes are developed in Rust and Python (for data processing tools) using a server with Ubuntu 20.04.4 LTS (GNU/Linux 5.4.0-109-generic x86\_64) operating system.
+The implementation consists of codes developed in both Rust and Python, where Rust is used for the core implementation and Python is used for data processing tools. The implementation was carried out on a server running Ubuntu 20.04.4 LTS, which employs the GNU/Linux 5.4.0-109-generic x86_64 operating system.
 
 ### **2.1 Prerequisites**<a id="chapter-0011"></a>
 
