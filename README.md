@@ -18,10 +18,10 @@ This experimental implementation, based on the Rust programming language, explor
 ## **1 Description**<a id="chapter-000"></a>
 **Built for research use**: a novel attack series on OpenEthereum, an implementation of Proof-of-Authority Aura.
 
-* Fully reproduce the attacks in research paper.
-* Source code with historic data.
-* Three separate attacks.
-* Local test avaliable.
+**Built for research use**: This tool is designed for research purposes and is capable of conducting a novel series of attacks on OpenEthereum, an implementation of Proof-of-Authority Aura.
+
+* It enables complete reproducibility of the attacks presented in the research paper and includes source code with historical data. 
+* The tool consists of three distinct attacks and offers a local test environment for ease of use.
 
 
 ## **2 Getting Started**<a id="chapter-001"></a>
