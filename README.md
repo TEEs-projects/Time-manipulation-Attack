@@ -29,7 +29,7 @@ The implementation consists of code developed in both Rust and Python, where Rus
 
 ### **2.1 Prerequisites**<a id="chapter-0011"></a>
 
-* [Rust](https://www.rust-lang.org/)
+* [Rust](https://www.rust-lang.org/) (Tested with 1.59.0)
 * By default, websocket 8650-8675 and 8750-8775 need to be avaliable (considering the scenarios of running 21 sealer nodes and 5 user nodes).
 
 ### **2.2 Build**<a id="chapter-0012"></a>
